@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RTBuilder",
+	"category" : "MLVisualizer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"image"
+	],
+	"name" : "MLMnistImage",
+	"type" : "normal"
+}

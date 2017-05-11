@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "OleksandrZaytsev 4/23/2017 21:52",
+	"super" : "MLLayer",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"weights",
+		"biases",
+		"activationFunction",
+		"input",
+		"logit",
+		"deltas",
+		"biasDeltas",
+		"learningRate"
+	],
+	"name" : "MLActualLayer",
+	"type" : "normal"
+}

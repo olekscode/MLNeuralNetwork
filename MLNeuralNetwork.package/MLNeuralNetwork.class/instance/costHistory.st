@@ -1,0 +1,4 @@
+accessing
+costHistory
+
+	^ learningAlgorithm costHistory

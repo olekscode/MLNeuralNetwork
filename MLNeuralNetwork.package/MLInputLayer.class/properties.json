@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "OleksandrZaytsev 4/23/2017 21:57",
+	"super" : "MLLayer",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLInputLayer",
+	"type" : "normal"
+}

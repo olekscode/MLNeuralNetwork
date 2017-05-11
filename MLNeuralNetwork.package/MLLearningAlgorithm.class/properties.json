@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inputLayer",
+		"outputLayer",
+		"costHistory"
+	],
+	"name" : "MLLearningAlgorithm",
+	"type" : "normal"
+}

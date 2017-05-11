@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "OleksandrZaytsev 5/8/2017 21:20",
+	"super" : "MLActivationFunction",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLSoftmax",
+	"type" : "normal"
+}

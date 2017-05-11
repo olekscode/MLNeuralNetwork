@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MLLearningAlgorithm",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLBackpropagation",
+	"type" : "normal"
+}

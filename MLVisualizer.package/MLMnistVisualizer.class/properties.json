@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "OleksandrZaytsev 5/11/2017 04:45",
+	"super" : "Object",
+	"category" : "MLVisualizer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLMnistVisualizer",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MLActualLayer",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"costFunction",
+		"activity"
+	],
+	"name" : "MLOutputLayer",
+	"type" : "normal"
+}

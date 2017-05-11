@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "OleksandrZaytsev 5/11/2017 04:45",
+	"super" : "Object",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLCostFunction",
+	"type" : "normal"
+}
