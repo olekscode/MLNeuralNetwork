@@ -1,6 +1,6 @@
 as yet unclassified
-readMnistLabels: path
-	"comment stating purpose of message"
+readLabels: path
+	"Reads MNIST labels from an idx file specified by path using IdxReader. Returns an array of one-hot PMVectors"
 
 	| reader array labels size |
 	reader := IdxReader onStream: (File named: path) readStream.
@@ -10,6 +10,6 @@ readMnistLabels: path
 	labels := Array new: size.
 	
 	1 to: size do: [ :i |
-		labels at: i put: (MLMnistReader decToBin: (array at: i)) ].
+		labels at: i put: (MLMnistReader onehot: (array at: i)) ].
 	
 	^ labels
