@@ -1,5 +1,5 @@
 private
-unroll: arrayOfArrays
+unroll: arrayOfArrays 
 	"Unrolls the (m, n) matrix into a vector of size m*n"
 
 	| rows cols vector |
