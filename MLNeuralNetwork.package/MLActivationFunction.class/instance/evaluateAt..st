@@ -1,4 +1,4 @@
 accessing
-value: logit
+evaluateAt: logit
 	
 	self subclassResponsibility

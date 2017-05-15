@@ -5,6 +5,6 @@ I know my value and derivative.
 Example usage:
 -=-=-=-=-=-=-=-=-=-=-=-=
 g := MLBinaryThreshold new.
-g value: #(2 3 1 4). 
+g evaluateAt: #(2 3 1 4). 
 g derivative: #(2 3 1 4).
 -=-=-=-=-=-=-=-=-=-=-=-=

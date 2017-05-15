@@ -5,4 +5,4 @@ forwardPropagate: thisInput
 	super forwardPropagate: thisInput.
 	
 	"We don't need to store the activity of the hidden layer. We just calculate it and pass it as an input to the next layer"
-	nextLayer forwardPropagate: (activationFunction value: logit).
+	nextLayer forwardPropagate: (activationFunction evaluateAt: logit).

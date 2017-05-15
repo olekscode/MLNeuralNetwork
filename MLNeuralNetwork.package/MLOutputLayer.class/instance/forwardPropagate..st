@@ -5,4 +5,4 @@ forwardPropagate: thisInput
 	super forwardPropagate: thisInput.
 	
 	"We need to store the activity to use it in the derivative of a cost function during backpropagation"
-	activity := activationFunction value: logit.
+	activity := activationFunction evaluateAt: logit.

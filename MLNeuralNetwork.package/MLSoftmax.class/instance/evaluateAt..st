@@ -1,5 +1,5 @@
 accessing
-value: logits
+evaluateAt: logits
 	
 	| exponents sum |
 	

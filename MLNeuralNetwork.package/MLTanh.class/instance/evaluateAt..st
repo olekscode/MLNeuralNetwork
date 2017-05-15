@@ -1,4 +1,4 @@
 accessing
-value: logits
+evaluateAt: logits
 	
 	^ logits tanh

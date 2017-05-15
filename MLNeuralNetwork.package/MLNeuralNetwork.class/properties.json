@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"learningAlgorithm",
 		"inputLayer",
-		"outputLayer",
-		"learningAlgorithm"
+		"outputLayer"
 	],
 	"name" : "MLNeuralNetwork",
 	"type" : "normal"
