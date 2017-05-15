@@ -3,8 +3,7 @@ I am a binary threshold activation function. I take a vector of logits (weighted
 I know my value and derivative.
 
 Example usage:
--=-=-=-=-=-=-=-=-=-=-=-=
+
 g := MLBinaryThreshold new.
 g evaluateAt: #(2 3 1 4). 
 g derivative: #(2 3 1 4).
--=-=-=-=-=-=-=-=-=-=-=-=

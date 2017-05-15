@@ -3,8 +3,7 @@ I am a logistic sigmoid activation function. I take a vector of  logits (weighte
 I know my value and derivative.
 
 Example usage:
--=-=-=-=-=-=-=-=-=-=-=-=
+
 g := MLLogisticFunction new.
 g evaluateAt: #(2 3 1 4). 
 g derivative: #(2 3 1 4).
--=-=-=-=-=-=-=-=-=-=-=-=

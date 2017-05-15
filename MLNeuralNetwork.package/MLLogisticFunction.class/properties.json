@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "OleksandrZaytsev 5/15/2017 18:55",
+	"commentStamp" : "OleksandrZaytsev 5/15/2017 19:04",
 	"super" : "MLActivationFunction",
 	"category" : "MLNeuralNetwork",
 	"classinstvars" : [ ],

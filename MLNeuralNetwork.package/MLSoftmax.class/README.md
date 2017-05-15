@@ -3,8 +3,7 @@ I am a softmax activation function. I take a vector as an input and return the v
 I know my value and derivative.
 
 Example usage:
--=-=-=-=-=-=-=-=-=-=-=-=
+
 g := MLSoftmax new.
 g evaluateAt: #(2 3 1 4). 
 g derivative: #(2 3 1 4).
--=-=-=-=-=-=-=-=-=-=-=-=
