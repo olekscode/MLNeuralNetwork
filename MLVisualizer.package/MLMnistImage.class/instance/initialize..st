@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize: img
-	super initialize.
+	self initialize.
 	image := img.

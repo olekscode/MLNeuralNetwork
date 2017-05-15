@@ -1,4 +1,4 @@
-rendering
+hooks
 renderIn: aView	
 	| f s scale color |
 	scale := 10.

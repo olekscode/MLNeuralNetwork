@@ -1,0 +1,1 @@
+I am a builder for  MNIST image. I expect the image to be an unroled vertor of 784 numbers (28*28) specifying pixel values. For me it doesn't matter if the values are normalized (0-1) or not (0-255), I will still be able to visualize them correctly.
