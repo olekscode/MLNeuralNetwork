@@ -1,4 +1,4 @@
-I am an abstract activation function. I don't implement anything but provide a common interface for all the activation functions. You can define your own activation functions as my subclasses  and tell the layer to use them (see examples below).
+I am an abstract activation function. I don't implement anything but provide a public interface for all the activation functions. You can define your own activation functions as my subclass  and tell the layer to use it (see examples below).
 
 To do that you need to provide implementations for the following messages:
 1. evaluateAt: (vector -> vector)

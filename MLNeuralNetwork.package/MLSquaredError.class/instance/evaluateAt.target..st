@@ -1,5 +1,5 @@
-as yet unclassified
-value: output target: target
+accessing
+evaluateAt: output target: target
 	"comment stating purpose of message"
 
 	"^ (target - output) ** 2."

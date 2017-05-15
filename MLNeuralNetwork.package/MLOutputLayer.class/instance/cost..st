@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 cost: target
 	"comment stating purpose of message"
 
-	^ costFunction value: activity target: target.
+	^ costFunction evaluateAt: activity target: target.

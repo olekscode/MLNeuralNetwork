@@ -1,6 +1,8 @@
-as yet unclassified
-value: output target: target
+accessing
+evaluateAt: output target: target
 	"comment stating purpose of message"
+
+	"^ -1 * target * (output log) - (1 - target) * ((1 - output) log)."
 	
 	| t y |
 	
@@ -9,4 +11,4 @@ value: output target: target
 		t := target at: i.
 		y := output at: i.
 		
-		-1 * t * (y ln) ].
+		-1 * t * (y ln) - ((1 - t) * ((1 - y) ln)) ].

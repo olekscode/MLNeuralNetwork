@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "OleksandrZaytsev 4/23/2017 20:22",
+	"commentStamp" : "OleksandrZaytsev 5/15/2017 19:37",
 	"super" : "MLCostFunction",
 	"category" : "MLNeuralNetwork",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MLSoftmaxCrossEntropy",
+	"name" : "MLLogisticCrossEntropy",
 	"type" : "normal"
 }

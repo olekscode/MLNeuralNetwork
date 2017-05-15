@@ -1,11 +1,11 @@
-as yet unclassified
+initialization
 initialize: numberOfNeurons
 	"comment stating purpose of message"
 
 	super initialize: numberOfNeurons.
 	
 	"Default cost function"
-	costFunction := MLSquaredError new.
+	costFunction := MLCrossEntropy new.
 	
 	activity := 0.
 	
