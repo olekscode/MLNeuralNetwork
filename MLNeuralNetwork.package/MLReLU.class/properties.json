@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MLActivationFunction",
+	"category" : "MLNeuralNetwork",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MLReLU",
+	"type" : "normal"
+}

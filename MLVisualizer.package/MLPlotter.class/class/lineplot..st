@@ -9,10 +9,15 @@ lineplot: values
 	hi := values max.
 	prec := 0.
 	
-	[ lo asInteger = hi asInteger ] whileTrue: [ 
-		prec := prec + 1.
-		lo := lo * 10.
-		hi := hi * 10. ].
+	((values collect: [ :v |
+		(v - (values at: 1)) ** 2 ]) sum
+	closeTo: 0)
+		ifTrue: [ prec := 1 ]
+		ifFalse: [ 
+			[ lo asInteger = hi asInteger ] whileTrue: [ 
+				prec := prec + 1.
+				lo := lo * 10.
+				hi := hi * 10. ] ].
 	
 	"Add 1, because if values range from 0.1 to 0.2, we want to see labels like [0.10 0.11 0.12 ... 0.20], not [0.1 0.1 0.1 ... 0.2] "
 	prec := prec + 1.
