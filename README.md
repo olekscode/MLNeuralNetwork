@@ -5,8 +5,8 @@ Use the following Metacello script to load MLNeuralNetwork into your [Pharo](htt
 
 ```Smalltalk
 Metacello new
-  repository: ’http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main’;
-  configuration: ’MLNeuralNetwork’;
+  repository: 'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main';
+  configuration: 'MLNeuralNetwork';
   version: #development;
   load.
 ```
